@@ -16,12 +16,12 @@ Certifique-se de ter instalado o seguinte software:
 1. Clone o repositório para sua máquina:
 
    ```bash
-   git clone https://github.com/seu-usuario/desafio-padawan-go.git
+    git clone https://github.com/seu-usuario/desafio-padawan-go.git
     ```
 2. Baixe as dependencias do go 
    
     ```go 
-    mod tidy 
+    go mod tidy 
     ```
 3. Crie a imagem do container MySQL
     ```bash
@@ -87,6 +87,4 @@ go test ./...
 - `routes/`: Define as rotas da API e associa-as aos controladores correspondentes.
 - `main/`: Contém o arquivo principal da aplicação, que configura o servidor e inicia a execução.
 - `README.md`: Documentação do projeto, que fornece informações sobre como configurar, executar e testar a aplicação.
-
-Essa estrutura é apenas uma sugestão e pode ser adaptada de acordo com as necessidades específicas do seu projeto. Certifique-se de atualizar a descrição de cada diretório para refletir o papel e o conteúdo real de cada um no seu projeto.
 
