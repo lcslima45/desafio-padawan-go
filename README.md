@@ -11,6 +11,14 @@ Certifique-se de ter instalado o seguinte software:
 - Go (1.16+)
 - Docker para o banco MySQL 
 
+## Tecnologias utilizadas 
+
+- GORM para programação com banco de dados
+- Gin-GONIC para Requisições HTTP 
+- MySQL 
+- Docker 
+- Testes unitários
+
 ## Instalação
 
 1. Clone o repositório para sua máquina:
